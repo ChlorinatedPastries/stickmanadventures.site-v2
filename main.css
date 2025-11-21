@@ -43,7 +43,7 @@ a{font-family: 'Times New Roman', Times, serif;}
 
 
 #homeNav {
-  font-size: 42px;
-  list-style-type: none; /*FIX THIS*/
+  font-size: 48px;
+  /*FIX THIS*/
   text-align: center;
 }
