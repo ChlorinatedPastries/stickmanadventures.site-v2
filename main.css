@@ -5,11 +5,7 @@ h1{font-family: 'Times New Roman', Times, serif;}
 h3{font-family: 'Times New Roman', Times, serif;}
 a{font-family: 'Times New Roman', Times, serif;}
 
-.bigHeader {
-  font-size: 108px;
-  margin: 0px;
-  display: inline;
-}
+
 .primary-nav {
   float: right;
   background-color:#565656;
@@ -19,9 +15,21 @@ a{font-family: 'Times New Roman', Times, serif;}
   font-size: 24px;
   width: 165px;
   height: 300px;
+  margin-top: -11%;
 }
 .navLink {
   color:#50c5e9;
+}
+.bigHeader {
+  font-size: 108px;
+  margin: 0px;
+  display: inline;
+}
+.midTxt {
+  justify-content: right;
+  font-size: 40px;
+  margin-top: 0%;
+  width: 1710px;
 }
 .graBor{
   p.double {border-style: double;}  

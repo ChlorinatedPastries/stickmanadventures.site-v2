@@ -1,8 +1,9 @@
 function getRandomSentence() {
-    const fruits = ["3.014 Vigintillion Cookies.","THE FACTORY MUST GROW","Welcome to the Information Superhighway!","WATERCOOLER","Its TV Time!","[[HYPERLINK BLOCKED]]","I HATE CLANKERS"
+    const fruits = ["3.072 Vigintillion Cookies.","THE FACTORY MUST GROW","Welcome to the Information Superhighway!","Its TV Time!","[[HYPERLINK BLOCKED]]","I HATE CLANKERS"
      ];
     const randomIndex = Math.floor(Math.random() * fruits.length);
     const result = fruits[randomIndex];
+    document.getElementById("ramdomTxt").innerHTML = result;
     return result;
 }
 function getRandomTitle() {
