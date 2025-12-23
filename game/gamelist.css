@@ -1,3 +1,5 @@
+h1{font-size: 70px; text-align: center;}
+h3{margin: 0%; font-size: 24px;text-align: center;}
 
 .gameblock{
     width: 192px;
@@ -31,7 +33,9 @@
     height: 192px;
 }
 
-
+#game1{
+    height:fit-content;
+}
 #game{
     font-size: 300px;
     margin-left: 19%;
