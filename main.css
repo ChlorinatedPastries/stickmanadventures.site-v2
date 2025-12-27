@@ -1,11 +1,15 @@
+* {font-family: 'Times New Roman', Times, serif;}
 body {background-color: #626262;}
-p{font-size: 24px;}
-p{font-family: 'Times New Roman', Times, serif;}
-h1{font-family: 'Times New Roman', Times, serif;}
-h3{font-family: 'Times New Roman', Times, serif;}
-a{font-family: 'Times New Roman', Times, serif;}
-
-
+p {font-size: 24px;}
+#hr {
+  margin-bottom: 115px;
+}
+#footer {
+    background-color: #565656;
+    position: static; bottom: auto; left: auto;
+    width: 97.5%;
+    height: 100px;
+}
 .primary-nav {
   float: right;
   background-color:#565656;
@@ -20,6 +24,7 @@ a{font-family: 'Times New Roman', Times, serif;}
 .navLink {
   color:#50c5e9;
 }
+
 .bigHeader {
   font-size: 108px;
   margin: 0px;
@@ -47,11 +52,13 @@ a{font-family: 'Times New Roman', Times, serif;}
   padding: 5px;
   font-size: 24px;
 }
-
-
+.noMargin{margin: 0%;}
+img .footer{
+  width: 150px;
+  height: 150px;
+}
 
 #homeNav {
   font-size: 48px;
-  /*FIX THIS*/
   text-align: center;
 }
