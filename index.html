@@ -9,10 +9,15 @@
     <meta charset="UTF-8"/>
 </head>
 <body>
+    <audio id="clickSound" src="/media/siteAudio/mouseclick.mp3"></audio>
+
     <img src="/media/siteArt/stickmanadventures2.png" id="img" alt="Welcome to stickmanadventures.site!" href="https://stickmanadventures.site/index.html"> 
     <h1 class="bigHeader">Welcome to stickmanadventures.site!</h1>
     <br>
     <p id="ramdomTxt">PLACEHOLDER QWERTYUIOP</p>
+    <br>
+    <img id="cursorImg" src="/media/siteImg/clickimg.png" onclick="document.getElementById('clickSound').play()" width="50px" height="50px">
+
     <div class="primary-nav"> 
         <a href="/index.html" class="navLink" id="homeNav">HOME</a>
         <ul>
