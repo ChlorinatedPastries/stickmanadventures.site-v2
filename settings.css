@@ -1,0 +1,45 @@
+.settings-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: #333;
+    color: rgb(61, 61, 61);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.settings-dropdown-content {
+     display: none;
+    position: absolute;
+    background-color: #050505;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.background-selecter option {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 10px;
+}
+
+.background-selecter {
+    background-color: #050505;
+    text-decoration-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
