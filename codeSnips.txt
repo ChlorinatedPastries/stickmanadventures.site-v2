@@ -12,7 +12,7 @@
 </head>
 <body class="background-color">
     <h1></h1>
-    <<div class="primary-nav"> 
+    <div class="primary-nav"> 
         <a href="/index.html" class="navLink" id="homeNav">HOME</a>
         <ul>
         <h6 class="noMarrgin">Gamesite stuff</h6>
