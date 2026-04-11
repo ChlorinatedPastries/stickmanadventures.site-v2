@@ -1,7 +1,6 @@
-.background-color {background-color: #626262;}
+.body {background-color: #626262;}
 
-p{font-size: 24px;}
-p{font-family: 'Times New Roman', Times, serif;}
+p{font-family: 'Times New Roman', Times, serif; font-size: 24px;}
 h1{font-family: 'Times New Roman', Times, serif;}
 h3{font-family: 'Times New Roman', Times, serif;}
 a{font-family: 'Times New Roman', Times, serif;}
@@ -19,7 +18,7 @@ a{font-family: 'Times New Roman', Times, serif;}
   padding: 5px;
   font-size: 24px;
   width: 165px;
-  height: 500px;
+  height: 510px;
   margin-top: -6%;
 }
 .navLink {

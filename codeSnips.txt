@@ -3,9 +3,6 @@
     <title></title>
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="main.css">
-    <script src="/index.js"></script> 
-    <script src="/main.js"></script> 
-    <script src=""></script>
     <link rel="shortcut icon" href="/media/siteArt/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8"/>
@@ -33,4 +30,7 @@
     <div class="left">
 
     </div>
+
+    <script src="/main.js"></script> 
+    <script src=""></script>
 </body>

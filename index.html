@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <head>
-    <title>Welcome to stickmanadventures.site!</title>
+    <title id="title">Welcome to stickmanadventures.site!</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="main.css">
-    <script src="/index.js"></script> 
-    <script src="/main.js"></script> 
     <link rel="shortcut icon" href="/media/siteArt/cube.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8"/>
@@ -17,10 +15,10 @@ we should have uh random imgs and backgrounds
 add media volume slider
 make background option functionality (so the settings can work)
 -->
-<body class="background-color">
+<body class="body">
     <audio id="clickSound" src="/media/siteAudio/mouseclick.mp3"></audio>
 
-    <img src="/media/siteArt/stickmanadventures2.png" id="img" alt="Welcome to stickmanadventures.site!" href="https://stickmanadventures.site/index.html"> 
+    <img src="/media/siteArt/stickmanadventures2.png" id="img" href="https://stickmanadventures.site/index.html"> 
     <h1 class="bigHeader">Welcome to stickmanadventures.site!</h1>
     <br>
     <p id="ramdomTxt">PLACEHOLDER QWERTYUIOP</p>
@@ -40,7 +38,7 @@ make background option functionality (so the settings can work)
         <li><a href="" class="navLink">about</a></li>
         <li><a href="" class="navLink">stuff ive made</a></li>
         <li><a href="" class="navLink">some kind of blog here?</a></li>
-        <li><a href="settings.html" class="navLink">settings</a></li>
+        <li><a class="navLink" id="settingLink">settings</a></li>
         <br>
         </ul>
     </div>
@@ -48,4 +46,7 @@ make background option functionality (so the settings can work)
     <div class="left">
 
     </div>
+
+    <script src="/index.js"></script> 
+    <script src="/main.js"></script> 
 </body>

@@ -1,14 +1,12 @@
 const background = document.getElementsByTagName("body")
+const settingLink = document.getElementById("settingLink")
 
-function settings() {
-    let settingsOpp = prompt("What do you want to change in settings? 1 for background, \n")
-    if (settingsOpp == 1) {
-        let settingsOpp1 = prompt("What do you want the background to be?")
-    }
-    else {
-        print("Thats not one of the things!")
-        settings()
-    }
+settingLink.addEventListener("click", settings);
+function main() {
+
 }
 
-settings();
+function settings() {
+    alert("test");
+    console.log("test")
+}
