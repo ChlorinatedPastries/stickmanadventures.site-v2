@@ -1,0 +1,13 @@
+
+
+.gameblock {
+    width: 315px;
+    height: 200px;
+}
+
+.gameblock > img {
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
