@@ -13,7 +13,7 @@
         <a href="/index.html" class="navLink" id="homeNav">HOME</a>
         <ul>
         <h6 class="noMarrgin">Gamesite stuff</h6>
-        <li><a href="" class="navLink">games</a></li>
+        <li><a href="/games/games.html" class="navLink">games</a></li>
         <li><a href="" class="navLink">links</a></li>
         <li><a href="" class="navLink">proxy</a></li>
         <li><a href="" class="navLink">credits</a></li>

@@ -1,0 +1,11 @@
+{
+    "gameList": {
+
+        "game1":{
+            "name": "game1"
+        },
+        "game2":{
+            "name": "game1"
+        }
+    }
+}

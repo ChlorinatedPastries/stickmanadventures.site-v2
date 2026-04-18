@@ -1,4 +1,4 @@
-const background = document.getElementsByTagName("body")
+const background = document.querySelector('body')
 const settingLink = document.getElementById("settingLink")
 
 settingLink.addEventListener("click", settings);
@@ -6,11 +6,12 @@ function main() {
     const settingTheam = localStorage.getItem("theam");
 
     if (settingTheam == 1) {
-        console.log("theam 1")
+        
     } 
     else if (settingTheam == 2) {
-        console.log("theam 2")
-    }
+        background.style.backgroundColor = "#363636";
+
+    } else { console.log("not working") } 
 }
 
 function settings() {
@@ -25,3 +26,8 @@ function settings() {
         alert("Settings reset! Reload page.")
     }
 }
+
+function thisPage() {
+    alert("Wait a sec...")
+}
+main();
